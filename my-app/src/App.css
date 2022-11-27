@@ -1,0 +1,154 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+button {
+  box-align: center;
+  color: white;
+  font-weight: 600;
+  float: center;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(122, 12, 98);
+  padding: 12px 10px;
+  margin-top: -50px;
+}
+button:hover {
+  transition: 200ms;
+  scale: 1.03;
+  background-color: rgb(208, 142, 44);
+}
+
+.column-1 {
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column-2 {
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row {
+  height: 50px;
+  padding: 20px 50px 0px 30px;
+}
+
+.box {
+  background-color: rgb(169, 204, 41) !important;
+  color: rgb(160, 33, 86);
+  height: 18vh;
+}
+
+.box-2 {
+  margin-left: 80px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.column-3 {
+  float: left !important;
+  width: 50% !important;
+}
+h1 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.profile {
+  border: 1.5px initial rgb(160, 33, 86);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 300px;
+  margin: 20px 50px;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  background-color: rgb(162, 255, 13);
+}
+
+.profile:hover {
+  transition: 400ms;
+  box-shadow: 0 8px 16px 0 rgba(90, 12, 58, 0.582);
+  transform: translateY(-10px);
+}
+.email {
+  color: rgb(65, 22, 90);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(160, 33, 86);
+}
+.loader {
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .name {
+    font-size: medium;
+  }
+  .column-3 {
+    float: left;
+    margin-left: 60px;
+  }
+
+  .email {
+    font-size: small;
+  }
+
+  .loader {
+    align-self: center;
+    width: 100%;
+  }
+
+  .box {
+    width: 110vh;
+  }
+}
